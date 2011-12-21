@@ -1,5 +1,12 @@
 <!doctype html>
-<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link href="./styles.css" rel="stylesheet" type="text/css"/>
 <div class="gauge">
 <div id="line"></div>
 </div>
+<script>
+var line = document.getElementById("line");
+var tp = setInterval(function(){
+    line.style.webkitTransform = "rotate("+(Math.floor(Math.random()*180)%180)+"deg)";
+},500);
+setTimeout(function(){clearInterval(tp)},10000);
+</script>

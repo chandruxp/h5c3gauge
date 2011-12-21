@@ -12,7 +12,6 @@
 	-moz-transition: all 1s ease-in-out;
 	-ms-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
-	-ms-transform: rotate(80deg);
 }
 
 .gauge {
